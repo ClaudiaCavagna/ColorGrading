@@ -5,6 +5,7 @@
   --dark-grey: #A9A9A9;
   --lightblue: #c1e5f3;
   --lightblue-hover: rgb(155, 218, 243); 
+  --yellow: #ffff00;
 }
 
 body {
@@ -33,4 +34,20 @@ button {
 
 button:hover {
   background-color: var(--lightblue-hover);
+}
+
+.single-color {
+  place-items: center;
+}
+
+.tint {
+  color: var(--text-color);
+}
+
+.shade {
+  color: var(--bg-color);
+}
+
+.base {
+  border: 2px solid var(--yellow);
 }
